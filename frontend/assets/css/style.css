@@ -1,0 +1,96 @@
+
+body{
+    margin:0;
+    background:#f8fafc;
+    font-family:Segoe UI, Arial, sans-serif;
+    color:#0f172a;
+}
+
+/* Sidebar */
+.sidebar{
+    width:250px;
+    height:100vh;
+    position:fixed;
+    left:0;
+    top:0;
+    background:#0f172a;
+    padding:25px 15px;
+}
+
+.sidebar h3{
+    color:#fff;
+    text-align:center;
+    margin-bottom:30px;
+    font-weight:700;
+}
+
+.sidebar a{
+    display:block;
+    color:#cbd5e1;
+    padding:12px 15px;
+    border-radius:10px;
+    margin-bottom:8px;
+    text-decoration:none;
+    transition:.2s;
+}
+
+.sidebar a:hover{
+    background:#1e293b;
+    color:#fff;
+}
+
+.main{
+    margin-left:250px;
+    padding:30px;
+}
+
+/* Cards */
+.card-box{
+    background:#fff;
+    border-radius:18px;
+    padding:22px;
+    box-shadow:0 10px 25px rgba(0,0,0,.06);
+    transition:.2s;
+}
+
+.card-box:hover{
+    transform:translateY(-3px);
+}
+
+.stat-number{
+    font-size:34px;
+    font-weight:800;
+}
+
+/* Buttons */
+.btn{
+    border:none;
+    border-radius:10px !important;
+    padding:8px 14px;
+}
+
+/* Tables */
+.table{
+    background:#fff;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 10px 20px rgba(0,0,0,.05);
+}
+
+.table th{
+    background:#0f172a;
+    color:#fff;
+    border:none;
+}
+
+.table td{
+    vertical-align:middle;
+}
+
+/* Badges */
+.badge{
+    padding:8px 12px;
+    border-radius:30px;
+    font-size:12px;
+}
+
